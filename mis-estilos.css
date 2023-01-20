@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #C4F0EF;
+}
+
+h1{
+	text-align: center;
+	color: #00F;
+}
+p{	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #C82764;
+	font-size: 18px;
+}
