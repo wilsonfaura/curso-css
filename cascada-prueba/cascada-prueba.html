@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+	body{
+		font-family: Verdana, Geneva, sans-serif;
+		color: #00F;
+	}
+	
+	p{
+		color: #F00;
+	}
+	
+	strong{
+		font-size: 46px;
+		color: #0F0;
+	}
+	
+	.colorpropio{
+		color: #2E8FC5;/*azul*/
+	}
+	
+	#otrocolor{
+		color: #12E754;/*Verde*/
+	}
+	
+	/*
+	etiqueta=1pto
+	clase=10pto
+	id=100pto
+	inline=1000pto
+	*/
+</style>
+</head>
+
+<body>
+	
+<!--La etiqueta h1 hereda el color y el tipo de letra de la etiqueta body y la palabra frio el tamaño y color de la etiqueta strong-->
+<h1>Hoy es martes y hace demasiado <strong>frio</strong></h1>
+
+<!--La etiqueta p no hereda el color de la etiqueta body pues el color de la etiqueta p es mas especifico-->
+<p><a href="http://www.google.com">Ir a google</a>Hoy es miercoles y hace mucho <strong class="colorpropio" id="otrocolor">calor</strong></p>
+</body>
+</html>
